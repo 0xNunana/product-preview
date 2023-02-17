@@ -15,7 +15,12 @@ function App() {
           <h1 className="text-3xl">$149.99</h1>
           <p className="text-sm pt-2 line-through">$169.99</p>
         </div>
-        
+        <div className="bg-green-300 flex justify-center p-2 rounded-lg my-2">
+          <button className="flex p-2">
+            <p className="pt-1 mr-2"><AiOutlineShoppingCart/></p>
+            <p>Add to Cart</p> 
+            </button>
+        </div>
         </div>
         
         </div>
